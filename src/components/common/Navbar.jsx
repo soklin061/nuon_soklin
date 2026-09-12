@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Mail, Menu, X } from 'lucide-react';
 import { profileData, navLinks } from '../../data/portfolioData';
 
@@ -24,11 +24,20 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-1.5 group">
-            <span className="text-2xl font-black tracking-tight text-brand-500 group-hover:text-brand-600 transition-colors">
-              {profileData.logoText || "SOKLIN DEV"}
-            </span>
-            <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+          <a href="#home" className="flex items-center gap-2.5 group">
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-brand-500/30 group-hover:border-brand-500 transition-all shadow-xs ring-2 ring-brand-100">
+              <img
+                src={profileData.logoImage || "/logo.jpg"}
+                alt={profileData.name}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span className="text-xl sm:text-2xl font-black tracking-tight text-brand-500 group-hover:text-brand-600 transition-colors">
+                {profileData.logoText || "SOKLIN DEV"}
+              </span>
+              <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}

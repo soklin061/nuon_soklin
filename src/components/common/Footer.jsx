@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ArrowUp, Heart } from 'lucide-react';
 import { profileData, navLinks } from '../../data/portfolioData';
 
@@ -14,11 +14,20 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-800">
           
           {/* Brand */}
-          <div className="flex items-center gap-2">
-            <span className="text-2xl font-black tracking-tight text-white">
-              {profileData.logoText || "SOKLIN DEV"}
-            </span>
-            <span className="w-2 h-2 rounded-full bg-brand-500"></span>
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-700">
+              <img
+                src={profileData.logoImage || "/logo.jpg"}
+                alt={profileData.name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-xl sm:text-2xl font-black tracking-tight text-white">
+                {profileData.logoText || "SOKLIN DEV"}
+              </span>
+              <span className="w-2 h-2 rounded-full bg-brand-500"></span>
+            </div>
           </div>
 
           {/* Quick Links */}

@@ -1,4 +1,4 @@
-﻿export const profileData = {
+export const profileData = {
   name: "Nuon Soklin",
   logoText: "NS DEV",
   taglineBadge: "Hello! Welcome to My Portfolio",
@@ -15,9 +15,10 @@
     email: "mailto:soklin061@gmail.com",
     // dribbble: "https://dribbble.com"
   },
-  heroImage: "src/assets/images/soklin.jpg",
+  logoImage: "/logo.jpg",
+  heroImage: "/images/soklin.jpg",
   heroAvatarSecondary: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-  aboutImage: "src/assets/images/cover/cover01.jpg",
+  aboutImage: "/images/cover/cover01.jpg",
   about: {
     heading: "About Me",
     paragraph1: "Hello! I am a passionate Developer and UI/UX Designer dedicated to building seamless digital experiences that solve real-world problems. I combine engineering rigor with design sensitivity to bring ideas to life on the web.",

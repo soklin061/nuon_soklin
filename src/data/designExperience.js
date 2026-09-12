@@ -8,30 +8,30 @@ export const designExperienceData = [
     client: "IT Staff Office",
     summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
     tools: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    coverImage: "src/assets/images/project/p01.jpg",
+    coverImage: "/images/project/p01.jpg",
     imageReferences: [
       {
-        url: "src/assets/images/project/r01.jpg",
+        url: "/images/project/r01.jpg",
         caption: "Application Dashboard & Data Visualization"
       },
       {
-        url: "src/assets/images/project/r02.jpg",
+        url: "/images/project/r02.jpg",
         caption: "Application Dashboard & Data Visualization"
       },
       {
-        url: "src/assets/images/project/p01.jpg",
+        url: "/images/project/p01.jpg",
         caption: "Application Dashboard & Data Visualization"
       },
       {
-        url: "src/assets/images/project/p02.jpg",
+        url: "/images/project/p02.jpg",
         caption: "Application Dashboard & Data Visualization"
       },
       {
-        url: "src/assets/images/project/p03.jpg",
+        url: "/images/project/p03.jpg",
         caption: "Real-time Collaboration Workspace & Task Board"
       },
       {
-        url: "src/assets/images/project/p04.jpg",
+        url: "/images/project/p04.jpg",
         caption: "User Settings & Database Integration Architecture"
       }
     ]
@@ -45,14 +45,14 @@ export const designExperienceData = [
     client: "N/A",
     summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
     tools: ["Figma", "FigJam", "Protopie", "Design Systems"],
-    coverImage: "src/assets/images/project/p01.jpg",
+    coverImage: "/images/project/p01.jpg",
     imageReferences: [
       {
-        url: "src/assets/images/mobile/m01.jpg",
+        url: "/images/mobile/m01.jpg",
         caption: "Application Dashboard & Data Visualization"
       },
       {
-        url: "src/assets/images/mobile/m02.jpg",
+        url: "/images/mobile/m02.jpg",
         caption: "Real-time Collaboration Workspace & Task Board"
       }
     ]
@@ -66,214 +66,214 @@ export const designExperienceData = [
     client: "Graphic & Print Design",
     summary: "Complete redesign of a next-generation financial management and investment dashboard featuring customizable widgets, dark/light themes, and seamless transaction flows.",
     tools: ["Figma", "FigJam", "Protopie", "Design Systems"],
-    coverImage: "src/assets/images/design/d01.jpg",
+    coverImage: "/images/design/d01.jpg",
     imageReferences: [
       {
-        url: "src/assets/images/design/d01.jpg",
+        url: "/images/design/d01.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d02.jpg",
+        url: "/images/design/d02.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d03.jpg",
+        url: "/images/design/d03.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d04.jpg",
+        url: "/images/design/d04.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d05.jpg",
+        url: "/images/design/d05.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d06.jpg",
+        url: "/images/design/d06.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d07.jpg",
+        url: "/images/design/d07.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d08.jpg",
+        url: "/images/design/d08.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d09.jpg",
+        url: "/images/design/d09.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d10.jpg",
+        url: "/images/design/d10.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d11.jpg",
+        url: "/images/design/d11.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d12.jpg",
+        url: "/images/design/d12.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d13.jpg",
+        url: "/images/design/d13.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d14.jpg",
+        url: "/images/design/d14.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d15.jpg",
+        url: "/images/design/d15.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d16.jpg",
+        url: "/images/design/d16.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d17.jpg",
+        url: "/images/design/d17.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d18.jpg",
+        url: "/images/design/d18.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d19.jpg",
+        url: "/images/design/d19.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d20.jpg",
+        url: "/images/design/d20.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d21.jpg",
+        url: "/images/design/d21.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d22.jpg",
+        url: "/images/design/d22.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d23.jpg",
+        url: "/images/design/d23.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d24.jpg",
+        url: "/images/design/d24.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d25.jpg",
+        url: "/images/design/d25.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d26.jpg",
+        url: "/images/design/d26.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d27.jpg",
+        url: "/images/design/d27.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d28.jpg",
+        url: "/images/design/d28.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d29.jpg",
+        url: "/images/design/d29.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d30.jpg",
+        url: "/images/design/d30.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d31.jpg",
+        url: "/images/design/d31.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d32.jpg",
+        url: "/images/design/d32.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d33.jpg",
+        url: "/images/design/d33.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d34.jpg",
+        url: "/images/design/d34.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d35.jpg",
+        url: "/images/design/d35.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d36.jpg",
+        url: "/images/design/d36.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d37.jpg",
+        url: "/images/design/d37.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d38.jpg",
+        url: "/images/design/d38.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d39.jpg",
+        url: "/images/design/d39.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d40.jpg",
+        url: "/images/design/d40.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d41.jpg",
+        url: "/images/design/d41.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d42.jpg",
+        url: "/images/design/d42.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d43.jpg",
+        url: "/images/design/d43.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d44.jpg",
+        url: "/images/design/d44.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d45.jpg",
+        url: "/images/design/d45.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d46.jpg",
+        url: "/images/design/d46.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d47.jpg",
+        url: "/images/design/d47.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d48.jpg",
+        url: "/images/design/d48.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d49.jpg",
+        url: "/images/design/d49.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d50.jpg",
+        url: "/images/design/d50.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d51.jpg",
+        url: "/images/design/d51.jpg",
         caption: ""
       },
       {
-        url: "src/assets/images/design/d52.jpg",
+        url: "/images/design/d52.jpg",
         caption: ""
       }
 
@@ -289,10 +289,10 @@ export const designExperienceData = [
     client: "POS System",
     summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
     tools: ["Figma", "FigJam", "Protopie", "Design Systems"],
-    coverImage: "src/assets/images/project/p01.jpg",
+    coverImage: "/images/project/p01.jpg",
     imageReferences: [
       {
-        url: "src/assets/images/project/p02.jpg",
+        url: "/images/project/p02.jpg",
         caption: "Application Dashboard & Data Visualization"
       },
     ]
