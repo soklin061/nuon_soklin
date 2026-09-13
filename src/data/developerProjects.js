@@ -43,7 +43,7 @@ export const developerProjectsData = [
     description: "Modern, high-performance personal portfolio showcasing interactive project demos, responsive case studies, dynamic filtering, and polished motion transitions.",
     image: "/images/project/p05.jpg",
     techStack: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
-    webUrl: "",
+    webUrl: "https://nuon-soklin.vercel.app/",
     githubUrl: "",
     stats: { performance: "99 Lighthouse", accessibility: "100%" },
     highlights: [

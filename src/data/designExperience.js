@@ -7,7 +7,7 @@ export const designExperienceData = [
     period: "03-2025 / 09-2026",
     client: "IT Staff Office",
     summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
-    tools: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+    tools: ["React", "Node.js", "Laravel", "Tailwind CSS"],
     coverImage: "/images/project/p01.jpg",
     imageReferences: [
       {
@@ -43,8 +43,8 @@ export const designExperienceData = [
     role: "Mobile App Developer",
     period: "2024 - 2025",
     client: "N/A",
-    summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
-    tools: ["Figma", "FigJam", "Protopie", "Design Systems"],
+    summary: "Architected a multi-platform mobile workspace using Flutter and Dart. Built a resilient networking layer integrating RESTful APIs with automated token refresh, custom interceptors, and strict JSON serialization. Combined REST endpoints for core transactional data with WebSockets for real-time board updates, orchestrated via BLoC architecture.",
+    tools: ["Figma", "Flutter", "Design Systems"],
     coverImage: "/images/project/p01.jpg",
     imageReferences: [
       {
@@ -64,8 +64,8 @@ export const designExperienceData = [
     role: "Graphic & Print Design",
     period: "2023 - 2024",
     client: "Graphic & Print Design",
-    summary: "Complete redesign of a next-generation financial management and investment dashboard featuring customizable widgets, dark/light themes, and seamless transaction flows.",
-    tools: ["Figma", "FigJam", "Protopie", "Design Systems"],
+    summary: "Spearheaded visual design and prepress production for diverse client collaterals, including corporate identity systems, marketing brochures, packaging layouts, and large-format promotional signage. Standardized color profiles (CMYK/Pantone), bleed margins, and vector typography across all assets to guarantee flawless print fidelity and reduce press-run turnaround times.",
+    tools: ["Adobe Illustrator", "Adobe Photoshop",],
     coverImage: "/images/design/d01.jpg",
     imageReferences: [
       {
@@ -287,14 +287,11 @@ export const designExperienceData = [
     role: "Tester and Reporter",
     period: "2022 - 2023",
     client: "POS System",
-    summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
-    tools: ["Figma", "FigJam", "Protopie", "Design Systems"],
+    summary: "Executed functional, regression, and integration testing across core POS modules, validating payment gateway APIs and real-time transaction processing.",
+    tools: ["Reporter", "Tester"],
     coverImage: "/images/project/p01.jpg",
     imageReferences: [
-      {
-        url: "/images/project/p02.jpg",
-        caption: "Application Dashboard & Data Visualization"
-      },
+      
     ]
   },
 
