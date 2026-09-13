@@ -1,5 +1,5 @@
 ﻿import React from 'react';
-import { ArrowRight, Download, Send, Sparkles } from 'lucide-react';
+import { ArrowRight, ViewIcon, Send, Sparkles } from 'lucide-react';
 import Button from '../common/Button';
 import { profileData } from '../../data/portfolioData';
 
@@ -84,11 +84,11 @@ export default function Hero() {
                 href={profileData.resumeUrl || "#"}
                 variant="outline"
                 size="lg"
-                icon={Download}
+                icon={ViewIcon}
                 iconPosition="right"
                 className="w-full sm:w-auto px-7 py-3.5 font-semibold text-sm md:text-base rounded-xl"
               >
-                Download CV
+                View CV
               </Button>
             </div>
 
