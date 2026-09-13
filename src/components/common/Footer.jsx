@@ -15,13 +15,13 @@ export default function Footer() {
           
           {/* Brand */}
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full overflow-hidden border border-slate-700">
-              <img
-                src={profileData.logoImage || "/logo.jpg"}
-                alt={profileData.name}
-                className="w-full h-full object-cover"
-              />
-            </div>
+              <div className="relative w-10 h-10 rounded-xl overflow-hidden shadow-xs ring-2 ring-brand-500/20 group-hover:ring-brand-500/40 transition-all">
+                <img
+                  src={profileData.logoImage || "/app-icon.svg"}
+                  alt={profileData.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
             <div className="flex items-center gap-2">
               <span className="text-xl sm:text-2xl font-black tracking-tight text-white">
                 {profileData.logoText || "SOKLIN DEV"}

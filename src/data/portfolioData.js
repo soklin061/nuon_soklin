@@ -15,7 +15,7 @@ export const profileData = {
     email: "mailto:soklin061@gmail.com",
     // dribbble: "https://dribbble.com"
   },
-  logoImage: "/logo.jpg",
+  logoImage: "/app-icon.svg",
   heroImage: "/images/soklin.jpg",
   heroAvatarSecondary: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
   aboutImage: "/images/cover/cover01.jpg",
@@ -35,9 +35,9 @@ export const profileData = {
 export const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About Me", href: "#about" },
-  { name: "My Expertise", href: "#expertise" },
-  { name: "Design Experience", href: "#design-experience" },
-  { name: "Developer Projects", href: "#developer-projects" },
+  { name: "My Skills", href: "#expertise" },
+  { name: "Experience", href: "#design-experience" },
+  { name: "Projects", href: "#developer-projects" },
   { name: "Recent Work", href: "#recent-work" },
   { name: "Contact", href: "#contact" }
 ];

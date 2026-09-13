@@ -21,8 +21,8 @@ export default function DesignExperience() {
         
         {/* Section Heading */}
         <SectionHeading
-          tag="DESIGN EXPERIENCE"
-          title="UI/UX Case Studies & Design References"
+          tag="EXPERIENCE"
+          title="Experience & References"
           subtitle="Explore product architecture, design systems, and click through comprehensive image references for each project."
           align="center"
         />

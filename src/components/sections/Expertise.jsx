@@ -17,7 +17,7 @@ export default function Expertise() {
         
         {/* Section Heading matching reference */}
         <SectionHeading
-          tag="MY EXPERTISE"
+          tag="MY SKILLS"
           title="Skills & Solutions I Provide"
           subtitle="Combining contemporary UI/UX design with robust modern engineering to build world-class digital products."
           align="center"

@@ -25,11 +25,11 @@ export default function Navbar() {
           
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2.5 group">
-            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-brand-500/30 group-hover:border-brand-500 transition-all shadow-xs ring-2 ring-brand-100">
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-xl overflow-hidden shadow-xs ring-2 ring-brand-500/20 group-hover:ring-brand-500/40 transition-all">
               <img
-                src={profileData.logoImage || "/logo.jpg"}
+                src={profileData.logoImage || "/app-icon.svg"}
                 alt={profileData.name}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex items-center gap-1.5">
