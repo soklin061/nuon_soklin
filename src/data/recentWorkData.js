@@ -1,18 +1,18 @@
 export const recentWorkData = [
   {
     id: "work-1",
-    tag: "Web App Redesign",
-    title: "Web App Redesign for BELTEI IU Application",
-    description: "Redesigning the user interface and experience of the BELTEI IU web application to enhance usability, accessibility, and visual appeal.",
+    tag: "UI/UX Redesign",
+    title: "BELTEI IU Web Redesign",
+    description: "Redesigned web application interface to improve usability, accessibility, and modern aesthetics.",
     image: "/images/project/r01.jpg",
     client: "BELTEI IU",
     year: "2025"
   },
   {
     id: "work-2",
-    tag: "System Design & Development",
+    tag: "System Development",
     title: "BELTEI IU Management System",
-    description: "Designing and developing a comprehensive management system for BELTEI IU, streamlining administrative tasks, student management, and reporting functionalities.",
+    description: "Comprehensive portal streamlining student records, administrative workflows, and reporting.",
     image: "/images/project/r02.jpg",
     client: "BELTEI IU",
     year: "2026"
@@ -20,19 +20,19 @@ export const recentWorkData = [
   {
     id: "work-3",
     tag: "Web Application",
-    title: "News Application (Web App)",
-    description: "Real-time cryptocurrency portfolio tracker with live candlestick charts, order books, and automated alerts.",
+    title: "News Web Application",
+    description: "Responsive news platform with live category filtering, article feeds, and clean reading layouts.",
     image: "/images/project/p03.jpg",
-    client: "Local Project",
+    client: "Personal Project",
     year: "2026"
   },
   {
     id: "work-4",
-    tag: "Web Application",
-    title: "Learning Application (Web App)",
-    description: "Real-time cryptocurrency portfolio tracker with live candlestick charts, order books, and automated alerts.",
+    tag: "E-Learning UI",
+    title: "Learning Application UI",
+    description: "Interactive e-learning interface with course catalogs, student dashboard, and progress tracking.",
     image: "/images/project/p04.jpg",
-    client: "Local Project",
+    client: "Personal Project",
     year: "2026"
   },
 ];

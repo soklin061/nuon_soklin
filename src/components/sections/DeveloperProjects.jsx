@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { ExternalLink, Info, Globe } from 'lucide-react';
 import SectionHeading from '../common/SectionHeading';
 import Button from '../common/Button';
@@ -11,7 +11,7 @@ export default function DeveloperProjects() {
   const [activeProject, setActiveProject] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
 
-  const categories = ['All', 'Full-Stack Web App', 'Frontend & API', 'SaaS Dashboard', 'Web Application'];
+  const categories = ['All', 'Full-Stack Web App', 'Frontend App', 'Web Application'];
 
   const filteredProjects = selectedFilter === 'All'
     ? developerProjectsData
@@ -30,7 +30,7 @@ export default function DeveloperProjects() {
         <SectionHeading
           tag="DEVELOPER PROJECTS"
           title="Engineering & Live Web Applications"
-          subtitle="Explore production web applications. Click any card to launch the live web application directly or view source code."
+          subtitle="Explore live web applications. Launch apps directly or check project details."
           align="center"
         />
 

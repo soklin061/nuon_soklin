@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ArrowRight, ViewIcon, Send, Sparkles } from 'lucide-react';
 import Button from '../common/Button';
 import { profileData } from '../../data/portfolioData';
@@ -53,14 +53,14 @@ export default function Hero() {
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-2xl sm:text-4xl md:text-4xl lg:text-[54px] font-black tracking-tight text-slate-900 leading-[1.15] mb-6">
-              NUON SOKLIN
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-black tracking-tight text-slate-900 leading-[1.15] mb-3">
+              {profileData.name}
             </h1>
 
-            {/* Main Headline */}
-            <h1 className="text-xl md:text-3xl  font-black tracking-tight text-slate-900 leading-[1.15] mb-6">
-              I Enjoy Frontend and Full Stack Developer
-            </h1>
+            {/* Sub-headline / Role */}
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-brand-600 mb-5">
+              {profileData.heroTitle}
+            </h2>
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-slate-500 font-normal leading-relaxed max-w-xl mb-9">

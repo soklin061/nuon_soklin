@@ -6,7 +6,7 @@ export const designExperienceData = [
     role: "Full Stack Developer",
     period: "03-2025 / 09-2026",
     client: "IT Staff Office",
-    summary: "Architected and engineered a scalable enterprise collaboration suite with real-time web socket sync, task management, and seamless third-party API integrations.",
+    summary: "Built scalable enterprise web portals and administrative tools, integrating REST APIs, database management, and responsive interfaces.",
     tools: ["React", "Node.js", "Laravel", "Tailwind CSS"],
     coverImage: "/images/project/p01.jpg",
     imageReferences: [
@@ -43,7 +43,7 @@ export const designExperienceData = [
     role: "Mobile App Developer",
     period: "2024 - 2025",
     client: "N/A",
-    summary: "Architected a multi-platform mobile workspace using Flutter and Dart. Built a resilient networking layer integrating RESTful APIs with automated token refresh, custom interceptors, and strict JSON serialization. Combined REST endpoints for core transactional data with WebSockets for real-time board updates, orchestrated via BLoC architecture.",
+    summary: "Developed cross-platform mobile apps with Flutter and Dart, integrating REST APIs, BLoC state management, and real-time features.",
     tools: ["Figma", "Flutter", "Design Systems"],
     coverImage: "/images/project/p01.jpg",
     imageReferences: [
@@ -64,8 +64,8 @@ export const designExperienceData = [
     role: "Graphic & Print Design",
     period: "2023 - 2024",
     client: "Graphic & Print Design",
-    summary: "Spearheaded visual design and prepress production for diverse client collaterals, including corporate identity systems, marketing brochures, packaging layouts, and large-format promotional signage. Standardized color profiles (CMYK/Pantone), bleed margins, and vector typography across all assets to guarantee flawless print fidelity and reduce press-run turnaround times.",
-    tools: ["Adobe Illustrator", "Adobe Photoshop",],
+    summary: "Created brand identity assets, marketing brochures, and large-format print collateral following strict prepress and color standards.",
+    tools: ["Adobe Illustrator", "Adobe Photoshop"],
     coverImage: "/images/design/d01.jpg",
     imageReferences: [
       {
@@ -282,17 +282,15 @@ export const designExperienceData = [
 
   {
     id: "report-2",
-    title: "The Next POS ",
-    category: "Tester",
+    title: "The Next POS",
+    category: "QA & Testing",
     role: "Tester and Reporter",
     period: "2022 - 2023",
     client: "POS System",
-    summary: "Executed functional, regression, and integration testing across core POS modules, validating payment gateway APIs and real-time transaction processing.",
-    tools: ["Reporter", "Tester"],
+    summary: "Performed functional and regression testing across POS modules, validating payment gateways and transaction workflows.",
+    tools: ["Manual Testing", "Bug Reporting", "POS Systems"],
     coverImage: "/images/project/p01.jpg",
-    imageReferences: [
-      
-    ]
+    imageReferences: []
   },
 
 ];

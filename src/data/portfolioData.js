@@ -2,8 +2,8 @@ export const profileData = {
   name: "Nuon Soklin",
   logoText: "NS DEV",
   taglineBadge: "Hello! Welcome to My Portfolio",
-  heroTitle: "I Enjoy Frontend and Full Stack Developer",
-  heroSubtitle: "I bring over 2.5 years of development experience, including 1.5 years building scalable full-stack web applications and 1 year engineering intuitive mobile apps for startups and tech companies.",
+  heroTitle: "Frontend & Full Stack Developer",
+  heroSubtitle: "Full-stack developer with 2.5+ years of experience building fast, scalable web applications and intuitive interfaces.",
   email: "soklin061@gmail.com",
   phone: "+855 71 630 4747",
   location: "Phnom Penh, Cambodia",
@@ -21,8 +21,8 @@ export const profileData = {
   aboutImage: "/images/cover/cover01.jpg",
   about: {
     heading: "About Me",
-    paragraph1: "Hello! I am a passionate Developer and UI/UX Designer dedicated to building seamless digital experiences that solve real-world problems. I combine engineering rigor with design sensitivity to bring ideas to life on the web.",
-    paragraph2: "Throughout my career, I have collaborated with cross-functional teams to design, architect, and ship high-performance web applications using React, Tailwind CSS, Vite, and cutting-edge web technologies.",
+    paragraph1: "Passionate developer and UI/UX designer dedicated to building clean, high-performance web applications that solve real-world problems.",
+    paragraph2: "Experienced in shipping responsive web and mobile solutions using React, Tailwind CSS, Laravel, and modern web tools.",
     stats: [
       { label: "Years Experience", value: "2+" },
       { label: "Completed Projects", value: "48+" },

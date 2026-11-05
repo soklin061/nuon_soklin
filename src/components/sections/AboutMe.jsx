@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import Button from '../common/Button';
 import { profileData } from '../../data/portfolioData';
@@ -41,7 +41,7 @@ export default function AboutMe() {
             </div>
 
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight mb-6">
-              Participation and Responsibility
+              Crafting Digital Solutions with Quality & Care
             </h2>
 
             {/* Paragraphs */}
@@ -56,7 +56,7 @@ export default function AboutMe() {
             <div className="grid grid-cols-2 gap-3.5 mb-8 w-full">
               {[
                 "Clean & Maintainable React Code",
-                "Designs with Tailwind CSS",
+                "Responsive UI with Tailwind CSS",
                 "REST & GraphQL API Integration",
                 "Scalable Full-Stack Architecture",
               ].map((item, idx) => (

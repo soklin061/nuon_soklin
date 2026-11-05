@@ -139,7 +139,7 @@ export default function Contact() {
         <SectionHeading
           tag="GET IN TOUCH"
           title="Let's Work Together"
-          subtitle="Have an ambitious project in mind, need a frontend developer, or want to discuss design? Drop a message below."
+          subtitle="Have a project in mind or want to collaborate? Drop me a message below."
           align="center"
         />
 
@@ -151,7 +151,7 @@ export default function Contact() {
               Contact Information
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed mb-8">
-              Feel free to reach out directly via email, phone, or connect with me across professional social networks.
+              Reach out directly via email, phone, or connect with me on social media.
             </p>
 
             <div className="space-y-6 mb-8">
